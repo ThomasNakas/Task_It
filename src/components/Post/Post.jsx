@@ -3,7 +3,7 @@ import {useState} from 'react';
 // modules imports------------
 import styles from './Post.module.css';
 //icons imports--------------
-import {FaCheck, FaEdit  ,FaTrash} from 'react-icons/fa';
+import {FaCheck,FaTimes,FaTrash} from 'react-icons/fa';
 // components imports--------------
 
 
@@ -30,7 +30,7 @@ const handleDelete =()=>setDeleted(false);
                     <p className={styles.text}>{text}</p>
                     <div className={styles.actions}>
                         <button type="button"  onClick={handleDelete}><FaTrash /></button>
-                        <button type="button" onClick={toggleIsCompleted}><FaCheck /></button>
+                        <button type="button" onClick={toggleIsCompleted}>{isCompleted&&<FaCheck />}{!isCompleted&&<span className={styles.ex_del}><FaTimes /></span>}</button>
                     </div>
                     
                 </div> 

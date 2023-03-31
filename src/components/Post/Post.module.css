@@ -121,6 +121,9 @@
     color:#36026eec !important;
     font-size: 1.6em;
   }
+  .ex_del{
+    text-decoration: none !important;
+  }
 
   @media (max-width: 760px){
      .actions button{
