@@ -1,5 +1,5 @@
 .form {
-  background-image: radial-gradient(ellipse at bottom right, #002fffa6, #d00505c9);
+  background-image: radial-gradient(ellipse at bottom right, #002fff6b, #bb040481);
     padding: 1rem;
     width: 20rem;
     box-shadow: 0 0 5px rgb(0, 0, 0);
@@ -8,7 +8,7 @@
   .form label {
     display: block;
     margin-bottom: 0.05rem;
-    color: #eadbfbcb;
+    color: #eadbfbe0;
     font-weight: bold;
     letter-spacing: 0.2em;
   }
@@ -21,7 +21,7 @@
     padding: 0.5rem;
     border-radius: 6px;
     border: none;
-    background-color: #ffffffbb;
+    background-color: #ffffff8c;
     color: #28262c;
   }
   
