@@ -1,5 +1,3 @@
----
-
 ## 📋 Task_It
 
 > A simple and responsive **React.js** to-do list application with essential task management features.
